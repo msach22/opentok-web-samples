@@ -11,6 +11,14 @@ For testing, you can use a session ID and token generated at your TokBox account
 
 3. `$ npm start`
 
+## Quick started
+1. Get values for your OpenTok API key, session ID, and token. You can obtain these values from your TokBox account. Make sure that the token isn't expired.
+For testing, you can use a session ID and token generated at your TokBox account page. However, the final application should obtain these values using the [OpenTok server SDKs](https://tokbox.com/developer/sdks/server/). For more information, see the OpenTok developer guides on [session creation](https://tokbox.com/developer/guides/create-session/) and [token creation](https://tokbox.com/developer/guides/create-token/).
+
+2. `$ npm install`
+
+3. `$ npm start`
+
 *Important:* Read the following sections of the of the README file to get started
 
 ## Installing Dependencies with `npm`
@@ -149,6 +157,11 @@ representing stream that was created. The application adds an event listener for
 ```
 The `session.subscribe()` method takes four parameters:
 
+<<<<<<< HEAD
+=======
+The `Session.subscribe()` method takes four parameters:
+
+>>>>>>> update readme
 * The Stream object to which we are subscribing to
 * The target DOM element or DOM element ID (optional) for placement of the subscriber video
 * A set of properties (optional) that customize the appearance of the subscriber view
