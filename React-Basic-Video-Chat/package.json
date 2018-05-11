@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@opentok/client": "^2.13.0",
+    "@opentok/client": "^2.14.2",
     "array.prototype.findindex": "^2.0.2",
     "opentok-react": "^0.7.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "react-scripts": "1.0.16"
   },
   "homepage": ".",
